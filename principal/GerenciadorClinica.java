@@ -7,7 +7,7 @@ import modelo.Paciente;
 public class GerenciadorClinica {
 
     public static void main(String[] args) {
-        // --- Demonstração da Pilha (LIFO: Último que entra, Primeiro que sai) ---
+
         PilhaHistoricoAtendimentos historicoDeAtendimentos = new PilhaHistoricoAtendimentos();
 
         System.out.println("--- DEMONSTRAÇÃO DA PILHA ---");
@@ -26,7 +26,7 @@ public class GerenciadorClinica {
         historicoDeAtendimentos.mostrarHistorico();
         System.out.println("\n");
 
-        // --- Demonstração da Fila (FIFO: Primeiro que entra, Primeiro que sai) ---
+
         FilaDeAtendimento filaDeEspera = new FilaDeAtendimento();
         
         System.out.println("--- DEMONSTRAÇÃO DA FILA ---");
